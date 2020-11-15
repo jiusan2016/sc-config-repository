@@ -1,0 +1,3 @@
+test:
+  uri: http://127.0.0.1:1521/test100
+  message: test message info 100
