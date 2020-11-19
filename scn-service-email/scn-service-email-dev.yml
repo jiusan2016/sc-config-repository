@@ -1,2 +1,24 @@
 app:
   info: this is micro service of email（001）.
+spring:
+  rabbitmq:
+    host: 10.211.55.6
+    port: 5672
+    username: admin
+    password: aa121212
+  mail:
+    protocol: smtp
+#    host: smtp.yeah.net
+#    port: 465
+#    username: jiusan007@yeah.net
+#    password: XVEUIZIXQQGQSTQI
+    host: smtp.qq.com
+    port: 465
+    username: 1358718478@qq.com
+    password: fhhkufdlofpfidae
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+        debug: true
