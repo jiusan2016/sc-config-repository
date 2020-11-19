@@ -8,6 +8,6 @@ spring:
     password: aa121212
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.211.55.2:3306/admin?useSSL=false&characterEncoding=UTF8
+    url: jdbc:mysql://10.211.55.2:3306/admin?useSSL=false&characterEncoding=UTF8&serverTimezone=Asia/Shanghai
     username: admin
     password: aa121212
