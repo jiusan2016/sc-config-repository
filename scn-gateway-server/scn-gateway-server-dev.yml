@@ -1,0 +1,17 @@
+app:
+  info: this is micro service of gateway（001）.
+spring:
+  # MQ的配置主要用于 Spring Cloud Bus 消息总线
+  rabbitmq:
+    host: 10.211.55.6
+    port: 5672
+    username: admin
+    password: aa121212
+# IP防爆刷参数配置
+defence:
+  ip-visit:
+    threshold:
+      # 统计的时间范围（默认是10分钟以内）
+      time-minute: 10
+      # 访问次数阀值（默认是100次）
+      count: 100
