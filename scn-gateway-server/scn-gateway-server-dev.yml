@@ -11,7 +11,7 @@ spring:
 defence:
   ip-visit:
     threshold:
-      # 统计的时间范围（默认是10分钟以内）
-      time-minute: 10
+      # 统计的时间范围（默认是1分钟以内）
+      time-minute: 1
       # 访问次数阀值（默认是100次）
       count: 100
